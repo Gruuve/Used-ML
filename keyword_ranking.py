@@ -46,4 +46,4 @@ rankedList = sorted(dictionary, key=dictionary.get, reverse=True)
 print(len(rankedList))
 
 for i in range(0, len(rankedList)):
-    print(rankedList[i] + ' repeats ' + str(dictionary[rankedList[i]]) + ' times')
+    print(rankedList[i] + ' searched by users ' + str(dictionary[rankedList[i]]) + ' times')
